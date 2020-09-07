@@ -46,7 +46,7 @@ def start_game(quotes):
         elif remaining_guesses == 1:
             print(f"Here's a hint: The author's last name starts with {quote['author'].split(' ')[1][0]}")
         else:
-            print(f"Sorry you ran out of guess. The answer wa {quote['author']}")
+            print(f"Sorry you ran out of guess. The answer was {quote['author']}")
     again = ""
     while  again.lower() not in ("y","yes","n","no"):
         again = input("Want to play again? (y/n)")
